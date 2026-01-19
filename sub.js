@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 // ===================== 用户配置区域开始 =====================
-let password = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63';  // 节点密码/UUID [环境变量: PASSWORD/UUID]
+let password = 'd7d197c0-94ae-41f3-962a-6da4c753cad1';  // 节点密码/UUID [环境变量: PASSWORD/UUID]
 let proxyIP = '210.61.97.241:81';                       // 代理IP [环境变量: PROXYIP]
 let subPath = 'link';                                   // 订阅路径,为空使用UUID [环境变量: SUB_PATH]
 let SSpath = '';                                        // WS路径,为空使用UUID [环境变量: SSPATH]
