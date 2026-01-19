@@ -1,11 +1,11 @@
 import { connect } from 'cloudflare:sockets';
 // ===================== 用户配置区域开始 =====================
-let password = 'd7d197c0-94ae-41f3-962a-6da4c753cad1';  // 节点密码/UUID [环境变量: PASSWORD/UUID]
+let password = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63';  // 节点密码/UUID [环境变量: PASSWORD/UUID]
 let proxyIP = '210.61.97.241:81';                       // 代理IP [环境变量: PROXYIP]
 let subPath = 'link';                                   // 订阅路径,为空使用UUID [环境变量: SUB_PATH]
 let SSpath = '';                                        // WS路径,为空使用UUID [环境变量: SSPATH]
-let loginPassword = '4790171';                           // 后台登录密码 [环境变量: LOGIN_PASSWORD]
-let subPassword = 'sub';                             // 自适应订阅密码 [环境变量: SUB_PASSWORD]
+let loginPassword = '123456';                           // 后台登录密码 [环境变量: LOGIN_PASSWORD]
+let subPassword = '123456';                             // 自适应订阅密码 [环境变量: SUB_PASSWORD]
 let customIP = '';                                      // 自定义优选IP,为空使用内置cfip [环境变量: CUSTOM_IP]
 let sub = '';                                           // 优选订阅生成器,获取上游优选IP列表 [环境变量: SUB]
 const cfip = atob('bWZhLmdvdi51YSNTRyxzYWFzLnNpbi5mYW4jSlAsc3RvcmUudWJpLmNvbSNTRyxjZi4xMzA1MTkueHl6I0tSLGNmLjAwODUwMC54eXojSEssY2YuMDkwMjI3Lnh5eiNTRyxjZi44Nzc3NzQueHl6I0hLLGNkbnMuZG9vbi5ldS5vcmcjSlAsc3ViLmRhbmZlbmcuZXUub3JnI1RXLGNmLnpoZXRlbmdzaGEuZXUub3JnI0hL').split(',');
